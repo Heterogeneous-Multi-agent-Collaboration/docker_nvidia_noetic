@@ -1,6 +1,7 @@
 CONTAINER_NAME="noetic_docker"
 IMAGE_NAME="hf/nvidia-ros-noetic"
-SHARED_DIR="/home/tianyi.zhang/ws/caric_dku/cwc_docker/shared_dir"
+#Note: This is the directory to keep all your code 
+SHARED_DIR="/home/toothlesos/projects/mas/dev"
 XSOCK=/tmp/.X11-unix
 XAUTH=/tmp/.docker.xauth
 if [ ! -f $XAUTH ]
